@@ -1,0 +1,6 @@
+[build]
+  command = "echo 'Static frontend + Netlify Functions; no build step required'"
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"

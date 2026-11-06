@@ -12,9 +12,9 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6LwMtUaX0C3VQf78Q_7qc4otCmDkrQ1qKDRjUBHTzBLug")
-PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID", "AVO9NY26lf0s4mq1obuGoEVZIlZGDiIy5aM1twBl-ZJrECNI-4roBFEtdXQWHV2gPeMyI55nuD2ogtL0")
-PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET", "EBXwruVaW1c2EGUBx_g6dOzs_ouIR0ROp8tygAvzqBIOhO0vxvTwwIp3YzuEpsbtMO51FnAMJpzDD3RU")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID")
+PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET")
 PAYPAL_BASE_URL = "https://api-m.sandbox.paypal.com"
 
 st.set_page_config(page_title="PaySplit AI - PayPal Agent", layout="wide")
