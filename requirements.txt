@@ -1,0 +1,7 @@
+streamlit
+google-genai
+requests
+pillow
+python-dotenv
+streamlit-aggrid
+pandas
